@@ -1,0 +1,38 @@
+.project-image-link {
+    display: block;
+    width: 100%;
+}
+
+.project-image-link img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-image-link img:hover {
+    transform: scale(1.05);
+}
+
+  
+  .tech-stack-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .floating-tech {
+    width: 60px;
+    height: 60px;
+    animation: float 3s infinite ease-in-out;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
